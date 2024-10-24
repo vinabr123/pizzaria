@@ -1,0 +1,84 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-image: url(../img/img\ 1.jpg);
+    
+}
+
+#fundo{
+   
+    width: 700px;
+    height: 500px;
+    margin-top: 2%;
+    padding: 20px;
+    border: 5px solid gold;
+    border-radius: 15px;
+    
+}
+
+#bemvindo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom:2%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+button{
+    width: 700px;
+    height: 220px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 1%;
+    font-size: larger;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black ;
+    border-radius: 15px;
+    transition:all 0.25s ease;
+    position: relative;
+}
+
+#loginpizza{
+    box-shadow: 0 0 5px #A52A2A;
+}
+
+#loginpizza:hover{
+    transform: translateY(60px);
+    background: linear-gradient(90deg, #A52A2A, #A52A2A);
+    color: gold;
+    box-shadow: 
+    0 0 5px #A52A2A,
+    0 0 10px #A52A2A,
+    0 0 20px #A52A2A,
+    0 0 30px #A52A2A,
+    0 0 40px #A52A2A;
+    border: 2px solid transparent;
+}
+
+#logincliente{
+    box-shadow: 0 0 5px #FF6347;
+    
+}
+
+#logincliente:hover{
+    transform: translateY(-60px);
+    background: linear-gradient(90deg,#FF6347, #FF6347);
+    color: gold;
+    box-shadow: 
+    0 0 5px #FF6347,
+    0 0 10px #FF6347,
+    0 0 20px #FF6347,
+    0 0 30px #FF6347,
+    0 0 40px #FF6347;
+    border: solid transparent;
+}
+
+::-webkit-scrollbar {
+    display: none; 
+}
