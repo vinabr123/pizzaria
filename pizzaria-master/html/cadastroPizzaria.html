@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/cadastroPizzaria.css">
+    <title>Cadastro Pizzaria</title>
 </head>
 <body>
-    <form action="cadastroPizzaria">
+    <!-- <form action="cadastroPizzaria.html" method="post"> --> 
         <label for="cadastroNomePizza">Digite o nome da sua pizzaria</label>
         <input type="text" id="cadastroNomePizzaria">
         <label for="cadastroEmailPizza">Digite o e-mail da sua pizzaria</label>
@@ -15,7 +16,14 @@
         <input type="number" id="cadastroCnpjPizzaria">
         <label for="cadastroSenhaPizza">Digite uma senha para login</label>
         <input type="password" id="cadastroSenhaPizzaria">
-        <button type="submit">Cadastrar-se</button>
-        </form>
+        <button type="submit" id="cadastroPizza" onclick="loginPizzaria()">Cadastrar-se</button>
+    <!--    </form> -->
+
+        <script>
+            function loginPizzaria() {
+                document.getElementById("cadastroPizza").innerHTML;
+                window.location.href = "loginPizzaria.html";
+            }
+        </script>
 </body>
 </html>

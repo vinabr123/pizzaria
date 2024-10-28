@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-image: url(../img/img\ 1.jpg);
+    
+}
+
+#fundo{
+   
+    width: 700px;
+    height: 500px;
+    margin-top: 2%;
+    padding: 20px;
+    border: 5px solid gold;
+    border-radius: 15px;
+    backdrop-filter: blur(7px);
+}

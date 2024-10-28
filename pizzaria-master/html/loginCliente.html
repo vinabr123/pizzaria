@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastroCltentescss">
+    <title>Cadastro Cliente</title>
+</head>
+<body>
+    <!--<form action="cadastro"> !-->
+        <label for="cadastroNome">Digite seu nome completo</label>
+        <input type="text" id="cadastroNomeCliente">
+        <label for="cadastroEmail">Digite seu e-mail</label>
+        <input type="email" id="cadastroEmailCliente">
+        <label for="cpf">Digite seu CPF</label>
+        <input type="number" id="cadastroCPF">
+        <label for="cadastroSenha">Digite sua senha</label>
+        <input type="password" id="cadastroSenha">
+        <button type="submit" id="cadastroCliente" onclick="cadastrarCliente()">Cadastrar-se</button>
+    <!--</form>!-->
+
+    <script>
+        function cadastrarCliente () {
+            document.getElementById ("cadastroCliente").innerHTML;
+            window.location.href = "logincliente.html";
+        }
+    </script>
+</body>
+</html>
