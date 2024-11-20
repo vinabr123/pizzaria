@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../img/img\ 1.jpg);
+    background-image: url(../img/fundo-do-quadro-negro-com-pizza_23-2148907816.jpg);
     
 }
 
@@ -18,7 +18,7 @@ body{
     backdrop-filter: blur(10px);
 }
 
-#loginCliente{
+#cadastroCliente{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-bottom:8%;
@@ -72,7 +72,7 @@ body{
     margin-bottom:1%;
 }
 
-#loginEmailCliente{
+#emailCliente{
 
     width: 65%;
     height: 20px;
@@ -91,7 +91,7 @@ body{
     margin-bottom:1%;
 }
 
-#loginSenhaCliente{
+#senhaCliente{
 
     width: 65%;
     height: 20px;

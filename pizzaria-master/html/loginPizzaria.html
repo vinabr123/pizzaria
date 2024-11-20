@@ -7,15 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="loginPizzaria">
-        <label for="CNPJ">Digite seu CNPJ</label>
-        <input type="number" id="loginCNPJ">
-        <label for="loginEmailPizza">Digite seu e-mail</label>
-        <input type="email" id="LoginEmailPizzaria">
-        <label for="loginSenhaPizza">Digite sua senha</label>
-        <input type="password" id="loginSenhaPIzzaria">
-        <button type="submit">Login</button>
-        <a href="../html/cadastroPizzaria.html">Não possui uma conta? Cadastre-se</a>
-    </form>
+    <div id="fundo">
+        <form action="loginPizzaria">
+            <h1 id="loginPizzaria">Faça seu Login</h1>
+            <label for="loginEmail"id="emailTexto">Digite o e-mail da Pizaria</label>
+            <input type="email" id="emailPizzaria" placeholder="Digite o e-mail da Pizaria">
+            <label for="loginSenha"id="senhaTexto">Digite a senha da Pizzaria</label>
+            <input type="password" id="senhaPizzaria" placeholder="Digite a senha da Pizzaria">
+            <button type="submit" id="botaoLogin">Fazer login</button>
+            <a href="../html/cadastroPizzaria.html" class ="paraCadastro" target="_blank">Não possui uma conta? Cadastre-se</a>
+        </form>
+    </div>
 </body>
 </html>

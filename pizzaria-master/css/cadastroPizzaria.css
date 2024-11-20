@@ -8,12 +8,105 @@ body{
 }
 
 #fundo{
-   
     width: 700px;
     height: 500px;
     margin-top: 2%;
     padding: 20px;
     border: 5px solid gold;
     border-radius: 15px;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
+}
+#cadastroPizzaria{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom:8%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#nomeTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#nomePizzaria{
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 8px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+    color: white;
+}
+
+#cnpjTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#cnpjPizzaria{
+
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 8px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+
+}
+
+#emailTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#emailPizzaria{
+
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 5px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+
+}
+
+#senhaTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#senhaPizzaria{
+
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 5px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+
+}
+
+#pizzariaCadastrada{
+    display: block;
+    align-items: center;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 50%;
 }

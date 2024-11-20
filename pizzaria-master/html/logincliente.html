@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/loginCliente.css">
+    <title>Login Cliente</title>
 </head>
 <body>
-    <form action="login">
-        <label for="cpf">Digite seu nome</label>
-        <input type="number"id="cpfCliente">
-        <label for="loginEmail">Digite seu e-mail</label>
-        <input type="email" id="loginEmailCliente">
-        <label for="loginSenha">Digite sus senha</label>
-        <input type="password" id="loginSenhaCliente">
-        <button type="submit">Fazer login</button>
-        <a href="../html/cadastroCliente.html">Não possui uma conta? Registre-se</a>
-    </form>
+    <div id = "fundo">
+        <form action="login">
+            <h1 id="loginCliente">Faça seu Login</h1>
+            <label for="loginEmail"id="emailTexto">Digite seu e-mail</label>
+            <input type="email" id="emailCliente" placeholder="Digite seu e-mail">
+            <label for="loginSenha"id="senhaTexto">Digite sua senha</label>
+            <input type="password" id="senhaCliente" placeholder="Digite sua senha">
+            <button type="submit" id="botaoLogin">Fazer login</button>
+            <a href="../html/cadastroCliente.html" class ="paraCadastro" target="_blank">Não possui uma conta? Registre-se</a>
+        </form>
+    </div>
 </body>
 </html>

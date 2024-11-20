@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/cadastroCliente.css">
-    <title>Login</title>
+    <title>Cadastro Cliente</title>
 </head>
 <body>
     <div id = "fundo">
-        <h1 id="loginCliente">Cadastre-se</h1>
-    <!--<form action="login"> !-->
+        <h1 id="cadastroCliente">Cadastre-se</h1>   
         <label for="nome"id="nomeTexto">Digite seu nome</label>
         <input type="name"id="nomeCliente" placeholder="Digite seu nome">
         <label for="cpf"id="cpfTexto">Digite seu CPF</label>
         <input type="number"id="cpfCliente" placeholder="Digite seu CPF">
         <label for="loginEmail"id="emailTexto">Digite seu e-mail</label>
-        <input type="email" id="loginEmailCliente" placeholder="Digite seu E-mail">
+        <input type="email" id="emailCliente" placeholder="Digite seu e-mail">
         <label for="loginSenha"id="senhaTexto">Digite sua senha</label>
-        <input type="password" id="loginSenhaCliente" placeholder="Digite sua senha">
+        <input type="password" id="senhaCliente" placeholder="Digite sua senha">
         <button type="submit" id="botaoLogin">Finalizar cadastro</button>
-    <!-- </form> !-->
+    <script>
+        function loginPizzaria() {
+            document.getElementById("cadastrocliente").innerHTML;
+            window.location.href = "loginCliente.html";
+        }
+    </script>
     </div>
 </body>
 </html>

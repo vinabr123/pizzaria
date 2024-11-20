@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../img/img\ 1.jpg);
+    background-image: url(../img/fundo-do-quadro-negro-com-pizza_23-2148907816.jpg);
     
 }
 
@@ -15,5 +15,74 @@ body{
     padding: 20px;
     border: 5px solid gold;
     border-radius: 15px;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(10px);
+}
+
+#loginCliente{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom:8%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#emailTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#emailCliente{
+
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 5px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+
+}
+
+#senhaTexto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:1%;
+}
+
+#senhaCliente{
+
+    width: 65%;
+    height: 20px;
+    display: block;
+    box-shadow: 0 0 5px #A52A2A;
+    align-items: center;
+    margin-bottom: 3%;
+    background-color: #999;
+
+}
+
+#botaoLogin{
+    display: block;
+    align-items: center;
+}
+
+.paraCadastro{
+    display: inline-block;
+    padding: 3px 15px;
+    margin-top: 20%;
+    margin-left: 35%;
+    box-shadow: 0 0 8px #A52A2A;
+    background-color: #999;
+    align-items: center;
+    opacity: 70%;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 50%;
 }
