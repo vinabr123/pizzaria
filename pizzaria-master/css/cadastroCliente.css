@@ -103,6 +103,17 @@ body{
 
 }
 
+a{
+        display: inline-block;
+        padding: 3px 15px;
+        margin-top: 10px;
+        margin-left: 40%;
+        box-shadow: 0 0 8px #A52A2A;
+        background-color: #999;
+        align-items: center;
+        opacity: 70%;    
+}
+
 #botaoLogin{
     display: block;
     align-items: center;

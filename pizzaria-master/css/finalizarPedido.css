@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f4f4f9, #f4f4f9);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.finalizacao-container {
+    width: 90%;
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333578;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+#form-finalizacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #333578;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+
+button {
+    padding: 14px;
+    background-color: #333578;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #2e2a60;
+}
+
+button:active {
+    background-color: #222066;
+}
+
+
+.resumo-pedido {
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resumo-pedido p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    color: #555;
+}
+
+.item-resumo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.item-resumo span {
+    color: #333;
+}
+
+
+#total-valor, #total-final {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333578;
+}
+
+#total-final {
+    color: #32cd32;
+}
+
+
+textarea {
+    font-size: 1.1rem;
+    color: #555;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .finalizacao-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 12px;
+    }
+
+    .form-group input, .form-group select, .form-group textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

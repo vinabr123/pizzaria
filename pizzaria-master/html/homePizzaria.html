@@ -5,13 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
     <link rel="stylesheet" href="../css/homePizzaria.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div id="barraInicial">
-        <p>Seja Bem-Vindo</p>
-    </div>
-    <div id="fundo">
-        
-    </div>
+    <div class="main-content"></div>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="/img/logo.png" alt="logo">
+            <h2>Slice Place Pizzaria</h2>
+        </div>
+        <ul class="sidebar-links">
+            <h4>
+                <span>Menu</span>
+                <div class="menu-separator"></div>
+            </h4>
+            <li >
+                <a href="/html/paginaPrincipalPizzaria.html" >
+                    <i class='bx bxs-home-smile' ></i>Paínel Principal
+                </a>
+            </li>
+            <h4>
+                <span>Geral</span>
+            </h4>
+            <li>
+                <a href="https://www.google.com.br/maps/preview">
+                    <i class='bx bxs-map' ></i>Maps
+                </a>
+            </li>
+            <li>
+                <a href="/html/funcionarios.html">
+                    <i class='bx bxs-group' ></i>Funcionários
+                </a>
+            </li>
+            <li>
+                <a href="/html/pedidos.html">
+                    <i class='bx bx-food-menu'></i>Pedidos              
+                </a>
+            </li>
+            <h4>
+                <span>Conta</span>
+            </h4>
+            <li>
+                <a href="/html/perfil.html">
+                    <i class='bx bxs-user-account' ></i>Perfil
+                </a>
+            </li>
+            <li>
+                <a href="/html/loginPizzaria.html">
+                    <i class='bx bx-log-out' ></i>Logout                
+                </a>
+            </li>
+        </ul>
+        <div class="user-account">
+            <div class="user-profile">
+                <img src="/img/logo.png" alt="profile-img">
+                <div class="user-detail">
+                    <h3>Clara Ribeiro</h3>
+                    <span>Propietária</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <script src="/javascript/homePizzaria.js">
+    </script>
 </body>
 </html>

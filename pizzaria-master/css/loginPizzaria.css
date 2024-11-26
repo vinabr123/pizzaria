@@ -65,16 +65,22 @@ body{
 
 }
 
-#botaoLogin{
-    display: block;
+a{
+    display: inline-block;
+    padding: 3px 15px;
+    margin-top: 10px;
+    margin-left: 40%;
+    box-shadow: 0 0 8px #A52A2A;
+    background-color: #999;
     align-items: center;
+    opacity: 70%;
 }
 
 .paraCadastro{
     display: inline-block;
     padding: 3px 15px;
     margin-top: 20%;
-    margin-left: 35%;
+    margin-left: 30%;
     box-shadow: 0 0 8px #A52A2A;
     background-color: #999;
     align-items: center;
@@ -84,4 +90,22 @@ body{
 input::placeholder {
     color: white;
     opacity: 50%;
+}
+
+.cancel-btn {
+    display: flex;
+    float: left;
+    background-color: #f4f4f9;
+    color: #333578;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333578;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #333578;
+    color: white;
 }

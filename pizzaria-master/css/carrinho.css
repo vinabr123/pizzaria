@@ -1,0 +1,133 @@
+
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+#carrinho-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.carrinho-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carrinho-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.carrinho-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.carrinho-item .item-nome {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.carrinho-item .item-preco {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.carrinho-item .item-quantidade {
+    font-size: 1rem;
+    color: #666;
+}
+
+.carrinho-item .remove-btn {
+    background-color: #ff4444;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carrinho-item .remove-btn:hover {
+    background-color: #ff2222;
+}
+
+
+#finalizar-pedido {
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#finalizar-pedido:hover {
+    background-color: #45a049;
+}
+
+
+#finalizar-container {
+    margin-top: 40px;
+}
+
+
+#carrinho-container p {
+    font-size: 1.2rem;
+    color: #333;
+    font-style: italic;
+}
+
+.cancel-btn {
+    display: flex;
+    float: left;
+    background-color: #f4f4f9;
+    color: #333578;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333578;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #333578;
+    color: white;
+}
+

@@ -1,0 +1,114 @@
+
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #ff6347;
+}
+
+
+.pizzarias-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.pizzaria {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pizzaria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pizzaria-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.pizzaria h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pizzaria p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+.ver-cardapio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.ver-cardapio:hover {
+    background-color: #e5533d;
+}
+
+.ver-cardapio.disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.cancel-btn {
+    float: left;
+    display: flex;
+    margin-top: 30px;
+    background-color: #f4f4f9;
+    color: #333578;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333578;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #333578;
+    color: white;
+}

@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="../css/homePizzaria.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <div class="main-content"></div>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>Irmão do Jorel</h2>
+        </div>
+        <ul class="sidebar-links">
+            <h4>
+                <span>Menu</span>
+                <div class="menu-separator"></div>
+            </h4>
+            <li >
+                <a href="/html/pedidoCliente.html" >
+                    <i class='bx bxs-cart-add' ></i>Fazer Pedido
+                </a>
+            </li>
+            <h4>
+                <span>Geral</span>
+            </h4>
+            <li>
+                <a href="/html/favoritos.html">
+                    <i class='bx bxs-heart' ></i>Favoritos
+                </a>
+            </li>
+            <h4>
+                <span>Conta</span>
+            </h4>
+            <li>
+                <a href="/html/perfilCliente.html">
+                    <i class='bx bxs-user-account' ></i>Perfil
+                </a>
+            </li>
+            <li>
+                <a href="/html/logincliente.html">
+                    <i class='bx bx-log-out' ></i>Logout                
+                </a>
+            </li>
+        </ul>
+        <div class="user-account">
+            <div class="user-profile">
+                <img src="/img/painel-redondo-irmao-do-jorel.jpg" alt="profile-img">
+                <div class="user-detail">
+                    <h3>Irmão do Jorel</h3>
+                    <span>Cliente</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <script src="/javascript/homePizzaria.js">
+    </script>
 </body>
 </html>

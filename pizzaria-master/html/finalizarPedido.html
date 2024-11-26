@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalização do Pedido</title>
+    <link rel="stylesheet" href="/css/finalizarPedido.css">
+</head>
+<body>
+    <div class="finalizacao-container">
+        <h1>Finalização do Pedido</h1>
+        <form id="form-finalizacao">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" required placeholder="Endereço para entrega">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" required placeholder="Seu telefone">
+            </div>
+            <div class="form-group">
+                <label for="observacao">Observações (opcional)</label>
+                <textarea id="observacao" name="observacao" placeholder="Alguma observação para o pedido?"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pagamento">Forma de Pagamento</label>
+                <select id="pagamento" name="pagamento" required>
+                    <option value="">Selecione uma forma de pagamento</option>
+                    <option value="credito">Cartão de Crédito</option>
+                    <option value="debito">Cartão de Débito</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="pix">Pix</option>
+                </select>
+            </div>
+            <div class="resumo-pedido">
+                <h3>Resumo do Pedido</h3>
+                <div id="itens-pedido"></div>
+                <p>Total: R$ <span id="total-valor">0.00</span></p>
+                <p>Taxa de entrega: R$ 5.00</p>
+                <p>Total Final: R$ <span id="total-final">0.00</span></p>
+            </div>
+            <button type="submit">Finalizar Pedido</button>
+        </form>
+    </div>
+    <script src="/javascript/finalizarPedido.js"></script>
+</body>
+</html>
